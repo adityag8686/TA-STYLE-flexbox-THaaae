@@ -1,0 +1,76 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/cec8cacc51.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="head flex" >
+            <h1 >
+                Altcampus
+            </h1>
+            <nav>
+                <a href="">Home</a>
+                <a class="active" href="">Gallery</a>
+                <a href="">About</a>
+            </nav>
+        </header>
+        <main>
+            <h2>
+                Gallery
+            </h2>
+           <article class="gallery flex">
+               
+                <div>
+                    <img src="assets/01.png" alt="campus image1">
+                </div>
+                <div>
+                    <img src="assets/02.png" alt="campus image2">
+
+                </div>
+                <div>
+                    <img src="assets/03.png" alt="campus image3">
+
+                </div>
+            </article>
+            <article class="gallery flex">
+                <div>
+                    <img src="assets/04.png" alt="campus image4">
+                </div>
+                <div>
+                    <img src="assets/05.png" alt="campus image5">
+
+                </div>
+                <div>
+                    <img src="assets/06.png" alt="campus image6">
+
+                </div>
+            </article>
+            <footer class="foot flex">
+                <div>&copy; Altcampus</div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                
+            </footer>
+        </main>
+
+    
+    
+   
+</body>
+</html>
